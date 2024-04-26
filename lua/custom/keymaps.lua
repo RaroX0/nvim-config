@@ -7,6 +7,7 @@ local cmp = require('cmp')
 local keymaps = {
 	-- I'm Dumb binds:
 	set_keymap('i', '<C-c>', [[<Esc>]], opts),
+	keymap("n", '<leader>d', vim.diagnostic.open_float, { noremap = false, silent = true }),
 	-- NvimTree binds: 
 	set_keymap('n', '<leader>n', [[:NvimTreeToggle <CR>]], opts),
 	set_keymap('n', '<leader>h', [[:NvimTreeFocus <CR>]], opts),

@@ -3,6 +3,6 @@ return {
 	event = "LspAttach",
 	opts = {},
 	config = function ()
-		require("diagflow").setup({})
+		--require("diagflow").setup({})
 	end
 }

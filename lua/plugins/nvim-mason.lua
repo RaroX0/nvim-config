@@ -13,7 +13,8 @@ return {
 					"rust_analyzer",
 					"clangd",
 					"python-lsp-server",
-					"typescript-language-server"
+					"typescript-language-server",
+					"json-lsp"
 				}
 			})
 		end
