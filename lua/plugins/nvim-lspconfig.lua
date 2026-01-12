@@ -12,7 +12,7 @@ return {
 		lspconfig.pylsp.setup({
 			filetype = { "python" }
 		})
-		lspconfig.tsserver.setup({
+		lspconfig.ts_ls.setup({
 			filetype = { "javascript", "typescript" }
 		})
 		lspconfig.jsonls.setup({
